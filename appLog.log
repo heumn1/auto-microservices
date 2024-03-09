@@ -1,0 +1,105 @@
+2024-03-10T02:07:48.056+03:00  INFO 6776 --- [main] r.h.s.StorageServiceApplication          : Starting StorageServiceApplication using Java 17.0.5 with PID 6776 (C:\Users\Heumn\IdeaProjects\auto-microservices\storage-service\target\classes started by Heumn in C:\Users\Heumn\IdeaProjects\auto-microservices)
+2024-03-10T02:07:48.063+03:00 DEBUG 6776 --- [main] r.h.s.StorageServiceApplication          : Running with Spring Boot v3.2.3, Spring v6.1.4
+2024-03-10T02:07:48.064+03:00  INFO 6776 --- [main] r.h.s.StorageServiceApplication          : No active profile set, falling back to 1 default profile: "default"
+2024-03-10T02:07:48.748+03:00  INFO 6776 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-10T02:07:48.772+03:00  INFO 6776 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16 ms. Found 0 JPA repository interfaces.
+2024-03-10T02:07:49.217+03:00  INFO 6776 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-03-10T02:07:49.227+03:00  INFO 6776 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-10T02:07:49.227+03:00  INFO 6776 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-10T02:07:49.329+03:00  INFO 6776 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-10T02:07:49.330+03:00  INFO 6776 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1216 ms
+2024-03-10T02:07:49.445+03:00  INFO 6776 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-03-10T02:07:49.644+03:00  INFO 6776 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@ab24484
+2024-03-10T02:07:49.646+03:00  INFO 6776 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-03-10T02:07:49.848+03:00  INFO 6776 --- [main] liquibase.database                       : Set default schema name to public
+2024-03-10T02:07:50.095+03:00  INFO 6776 --- [main] liquibase.changelog                      : Reading from public.databasechangelog
+2024-03-10T02:07:50.122+03:00  INFO 6776 --- [main] liquibase.changelog                      : Reading from public.databasechangelog
+2024-03-10T02:07:50.147+03:00  INFO 6776 --- [main] liquibase.util                           : UPDATE SUMMARY
+2024-03-10T02:07:50.147+03:00  INFO 6776 --- [main] liquibase.util                           : Run:                          0
+2024-03-10T02:07:50.147+03:00  INFO 6776 --- [main] liquibase.util                           : Previously run:               2
+2024-03-10T02:07:50.147+03:00  INFO 6776 --- [main] liquibase.util                           : Filtered out:                 0
+2024-03-10T02:07:50.147+03:00  INFO 6776 --- [main] liquibase.util                           : -------------------------------
+2024-03-10T02:07:50.147+03:00  INFO 6776 --- [main] liquibase.util                           : Total change sets:            2
+2024-03-10T02:07:50.147+03:00  INFO 6776 --- [main] liquibase.util                           : Update summary generated
+2024-03-10T02:07:50.162+03:00  INFO 6776 --- [main] liquibase.lockservice                    : Successfully released change log lock
+2024-03-10T02:07:50.164+03:00  INFO 6776 --- [main] liquibase.command                        : Command execution complete
+2024-03-10T02:07:50.226+03:00  INFO 6776 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-10T02:07:50.296+03:00  INFO 6776 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-03-10T02:07:50.338+03:00  INFO 6776 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-03-10T02:07:50.567+03:00  INFO 6776 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-10T02:07:51.450+03:00  INFO 6776 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-10T02:07:51.491+03:00  INFO 6776 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-10T02:07:51.766+03:00  INFO 6776 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-03-10T02:07:51.772+03:00  WARN 6776 --- [main] org.hibernate.orm.connections.pooling    : HHH10001002: Using built-in connection pool (not intended for production use)
+2024-03-10T02:07:51.773+03:00  INFO 6776 --- [main] org.hibernate.orm.connections.pooling    : HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2024-03-10T02:07:51.773+03:00  INFO 6776 --- [main] org.hibernate.orm.connections.pooling    : HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/autoservice]
+2024-03-10T02:07:51.773+03:00  INFO 6776 --- [main] org.hibernate.orm.connections.pooling    : HHH10001001: Connection properties: {password=****, user=postgres}
+2024-03-10T02:07:51.773+03:00  INFO 6776 --- [main] org.hibernate.orm.connections.pooling    : HHH10001003: Autocommit mode: false
+2024-03-10T02:07:51.775+03:00  INFO 6776 --- [main] org.hibernate.orm.connections.pooling    : HHH10001115: Connection pool size: 20 (min=1)
+2024-03-10T02:07:52.059+03:00  INFO 6776 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-03-10T02:07:52.062+03:00  WARN 6776 --- [main] org.hibernate.orm.connections.pooling    : HHH10001002: Using built-in connection pool (not intended for production use)
+2024-03-10T02:07:52.062+03:00  INFO 6776 --- [main] org.hibernate.orm.connections.pooling    : HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2024-03-10T02:07:52.062+03:00  INFO 6776 --- [main] org.hibernate.orm.connections.pooling    : HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/autoservice]
+2024-03-10T02:07:52.062+03:00  INFO 6776 --- [main] org.hibernate.orm.connections.pooling    : HHH10001001: Connection properties: {password=****, user=postgres}
+2024-03-10T02:07:52.063+03:00  INFO 6776 --- [main] org.hibernate.orm.connections.pooling    : HHH10001003: Autocommit mode: false
+2024-03-10T02:07:52.063+03:00  INFO 6776 --- [main] org.hibernate.orm.connections.pooling    : HHH10001115: Connection pool size: 20 (min=1)
+2024-03-10T02:07:52.220+03:00  WARN 6776 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-10T02:07:52.594+03:00  INFO 6776 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-03-10T02:07:52.603+03:00  INFO 6776 --- [main] r.h.s.StorageServiceApplication          : Started StorageServiceApplication in 4.972 seconds (process running for 5.691)
+2024-03-10T02:07:59.975+03:00  INFO 6776 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-10T02:07:59.975+03:00  INFO 6776 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-10T02:07:59.976+03:00  INFO 6776 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-03-10T02:11:17.432+03:00  INFO 6776 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-10T02:11:17.434+03:00  INFO 6776 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-03-10T02:11:17.437+03:00  INFO 6776 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-03-10T02:11:47.804+03:00  INFO 23764 --- [main] r.h.s.StorageServiceApplication          : Starting StorageServiceApplication using Java 17.0.5 with PID 23764 (C:\Users\Heumn\IdeaProjects\auto-microservices\storage-service\target\classes started by Heumn in C:\Users\Heumn\IdeaProjects\auto-microservices)
+2024-03-10T02:11:47.806+03:00 DEBUG 23764 --- [main] r.h.s.StorageServiceApplication          : Running with Spring Boot v3.2.3, Spring v6.1.4
+2024-03-10T02:11:47.806+03:00  INFO 23764 --- [main] r.h.s.StorageServiceApplication          : No active profile set, falling back to 1 default profile: "default"
+2024-03-10T02:11:48.392+03:00  INFO 23764 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-10T02:11:48.414+03:00  INFO 23764 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16 ms. Found 0 JPA repository interfaces.
+2024-03-10T02:11:48.831+03:00  INFO 23764 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-03-10T02:11:48.839+03:00  INFO 23764 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-10T02:11:48.840+03:00  INFO 23764 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-10T02:11:48.896+03:00  INFO 23764 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-10T02:11:48.897+03:00  INFO 23764 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1051 ms
+2024-03-10T02:11:48.993+03:00  INFO 23764 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-03-10T02:11:49.125+03:00  INFO 23764 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@68c9e023
+2024-03-10T02:11:49.129+03:00  INFO 23764 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-03-10T02:11:49.240+03:00  INFO 23764 --- [main] liquibase.database                       : Set default schema name to public
+2024-03-10T02:11:49.421+03:00  INFO 23764 --- [main] liquibase.changelog                      : Reading from public.databasechangelog
+2024-03-10T02:11:49.448+03:00  INFO 23764 --- [main] liquibase.changelog                      : Reading from public.databasechangelog
+2024-03-10T02:11:49.470+03:00  INFO 23764 --- [main] liquibase.util                           : UPDATE SUMMARY
+2024-03-10T02:11:49.470+03:00  INFO 23764 --- [main] liquibase.util                           : Run:                          0
+2024-03-10T02:11:49.470+03:00  INFO 23764 --- [main] liquibase.util                           : Previously run:               2
+2024-03-10T02:11:49.471+03:00  INFO 23764 --- [main] liquibase.util                           : Filtered out:                 0
+2024-03-10T02:11:49.471+03:00  INFO 23764 --- [main] liquibase.util                           : -------------------------------
+2024-03-10T02:11:49.471+03:00  INFO 23764 --- [main] liquibase.util                           : Total change sets:            2
+2024-03-10T02:11:49.471+03:00  INFO 23764 --- [main] liquibase.util                           : Update summary generated
+2024-03-10T02:11:49.488+03:00  INFO 23764 --- [main] liquibase.lockservice                    : Successfully released change log lock
+2024-03-10T02:11:49.489+03:00  INFO 23764 --- [main] liquibase.command                        : Command execution complete
+2024-03-10T02:11:49.585+03:00  INFO 23764 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-10T02:11:49.673+03:00  INFO 23764 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-03-10T02:11:49.716+03:00  INFO 23764 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-03-10T02:11:49.929+03:00  INFO 23764 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-10T02:11:50.920+03:00  INFO 23764 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-10T02:11:50.968+03:00  INFO 23764 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-10T02:11:51.253+03:00  INFO 23764 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-03-10T02:11:51.259+03:00  WARN 23764 --- [main] org.hibernate.orm.connections.pooling    : HHH10001002: Using built-in connection pool (not intended for production use)
+2024-03-10T02:11:51.259+03:00  INFO 23764 --- [main] org.hibernate.orm.connections.pooling    : HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2024-03-10T02:11:51.259+03:00  INFO 23764 --- [main] org.hibernate.orm.connections.pooling    : HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/autoservice]
+2024-03-10T02:11:51.259+03:00  INFO 23764 --- [main] org.hibernate.orm.connections.pooling    : HHH10001001: Connection properties: {password=****, user=postgres}
+2024-03-10T02:11:51.259+03:00  INFO 23764 --- [main] org.hibernate.orm.connections.pooling    : HHH10001003: Autocommit mode: false
+2024-03-10T02:11:51.261+03:00  INFO 23764 --- [main] org.hibernate.orm.connections.pooling    : HHH10001115: Connection pool size: 20 (min=1)
+2024-03-10T02:11:51.452+03:00  INFO 23764 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-03-10T02:11:51.454+03:00  WARN 23764 --- [main] org.hibernate.orm.connections.pooling    : HHH10001002: Using built-in connection pool (not intended for production use)
+2024-03-10T02:11:51.455+03:00  INFO 23764 --- [main] org.hibernate.orm.connections.pooling    : HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2024-03-10T02:11:51.455+03:00  INFO 23764 --- [main] org.hibernate.orm.connections.pooling    : HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/autoservice]
+2024-03-10T02:11:51.455+03:00  INFO 23764 --- [main] org.hibernate.orm.connections.pooling    : HHH10001001: Connection properties: {password=****, user=postgres}
+2024-03-10T02:11:51.455+03:00  INFO 23764 --- [main] org.hibernate.orm.connections.pooling    : HHH10001003: Autocommit mode: false
+2024-03-10T02:11:51.455+03:00  INFO 23764 --- [main] org.hibernate.orm.connections.pooling    : HHH10001115: Connection pool size: 20 (min=1)
+2024-03-10T02:11:51.618+03:00  WARN 23764 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-10T02:11:51.941+03:00  INFO 23764 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-03-10T02:11:51.951+03:00  INFO 23764 --- [main] r.h.s.StorageServiceApplication          : Started StorageServiceApplication in 4.514 seconds (process running for 5.072)
+2024-03-10T02:11:57.494+03:00  INFO 23764 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-10T02:11:57.495+03:00  INFO 23764 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-10T02:11:57.496+03:00  INFO 23764 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
