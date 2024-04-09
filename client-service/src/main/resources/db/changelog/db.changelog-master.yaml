@@ -1,0 +1,9 @@
+databaseChangeLog:
+  - include:
+      file: db/changelog/changeset/db.changelog-3.0.sql
+  - include:
+      file: db/changelog/changeset/db.changelog-3.1.sql
+  - include:
+      file: db/changelog/changeset/db.changelog-3.2.sql
+  - include:
+      file: db/changelog/changeset/db.changelog-3.3.sql
